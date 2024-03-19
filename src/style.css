@@ -261,6 +261,12 @@ h1 {
   .card:hover .outside {
     transform: rotateY(-130deg);
   }
+.card:focus {
+    transform: rotate(-5deg);
+  }
+  .card:focus .outside {
+    transform: rotateY(-130deg);
+  }
   .outside,
   .inside {
     height: 100%;
